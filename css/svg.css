@@ -13,3 +13,9 @@
     background-size: cover;
     background-color: #2E2F42;
 }
+.list-icons{
+    display: flex;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+    background-color: var(--bg-color-icons);
+}
