@@ -45,6 +45,15 @@ img{
     --padding-top-set-img: 32px;
     --margin-bottom-set-img: 8px;
 }
+.background{
+    background-image: linear-gradient(rgba(46, 47, 66,0.7),
+    rgba(46, 47, 66,0.7)), url('/images/header.svg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #2E2F42;
+   
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -155,7 +164,7 @@ body{
     /* < !-- Header Tittle --> */
 
 .title-content{
-    background-color: var(--primary-color-title);
+    /* background-color: var(--primary-color-title); */
     text-align: center;
     padding-top: 192px;
     padding-bottom: 192px;
