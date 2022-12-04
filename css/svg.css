@@ -32,20 +32,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 24px;
+    
    
 }
 .item-icon{
     padding-top: 8px;
     margin-bottom: 32px;
+    
 }
-.icon-svg{
-    background-color: var(--bg-svg-color-social-link);
-    border-radius: 60%;
+.social-link{
+   
     width: 40px;
     height: 40px;
     padding: 12px 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-svg-color-social-link);
 }
-.item-icon{
-    
 
-}
