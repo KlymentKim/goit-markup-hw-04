@@ -13,6 +13,7 @@
     background-size: cover;
     background-color: #2E2F42;
 }
+
 .list-icons{
     display: flex;
     padding: 24px 100px;
@@ -34,11 +35,11 @@
     align-items: center;
     gap: 24px;
     
-   
+    margin-top:  8px;
+    margin-bottom: 32px;
+    
 }
 .item-icon{
-    padding-top: 8px;
-    margin-bottom: 32px;
     
 }
 .social-link{
@@ -51,4 +52,20 @@
     align-items: center;
     background-color: var(--bg-svg-color-social-link);
 }
-
+    /* Customers */
+.wrapper-panel-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.item-icon-rectangle{
+    
+    padding: 16px 32px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    
+}
+.customer-social-link{
+ 
+}
