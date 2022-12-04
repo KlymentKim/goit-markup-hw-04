@@ -394,6 +394,15 @@ body{
     padding: 32px 0 32px 16px;
     
 }
+
+            /* Customers */
+.customers-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
             /* Footer */
 .footer{
      max-width: 1440px;
