@@ -1,0 +1,8 @@
+.background{
+    background-image: linear-gradient(rgba(46, 47, 66,0.7),
+    rgba(46, 47, 66,0.7)), url('/images/header.svg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2E2F42;
+}
