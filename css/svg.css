@@ -61,6 +61,7 @@
 }
 .wrapper-panel-icons{
     display: flex;
+    gap: 24px;
 }
 .item-icon-rectangle{
     display: flex;
@@ -72,7 +73,7 @@
     width: 168px;
     height: 88px;
     padding: 16px 32px;
-    gap: 24px;
+   
     
 }
 .customer-social-link:hover,
