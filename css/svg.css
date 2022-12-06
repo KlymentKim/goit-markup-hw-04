@@ -48,7 +48,7 @@
     
 }
 
-.social-link{
+.social-link-employee{
     width: 40px;
     height: 40px;
     padding: 12px 12px;
@@ -106,6 +106,17 @@
 }
 .wrapper-list-social-media{
     gap:16px;
+}
+.social-link {
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-svg-color-social-link);
+    fill: var(--bg-color-icons);
 }
 .social-link{
     background-color: var(--bg-svg-color-social-media);
