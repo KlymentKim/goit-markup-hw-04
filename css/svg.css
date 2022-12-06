@@ -4,6 +4,7 @@
     --bg-svg-color-social-media:rgba(255, 255, 255, 0.1);
     --bg-svg-color-custumers:#AFB1B8;
     --bg-svg-color-icon:#8E8F99;
+    --prColor-title-social-media: #FFFFFF;
 
 }
 .background{
@@ -92,7 +93,18 @@
 }
 
         /* Social media */
-.posi-social {
-    display: flex;
-    margin-right: auto;
+.title-social-media{
+    margin-bottom: 16px;
+    color: var(--prColor-title-social-media);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.wrapper-list-social-media{
+    gap:16px;
+}
+.social-link{
+    background-color: var(--bg-svg-color-social-media);
 }
