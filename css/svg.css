@@ -1,5 +1,6 @@
 :root{
     --bg-color-icons:#F4F4FD;
+    --bg-color-social-icons:#404BBF;
     --bg-svg-color-social-link:#4D5AE5;
     --bg-svg-color-social-media:rgba(255, 255, 255, 0.1);
     --bg-svg-color-custumers:#AFB1B8;
@@ -10,7 +11,8 @@
 }
 .background{
     background-image: linear-gradient(rgba(46, 47, 66,0.7),
-    rgba(46, 47, 66,0.7)), url(../images/header.jpg);
+    rgba(46, 47, 66,0.7)),
+     url(../images/header.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,6 +62,9 @@
     background-color: var(--bg-svg-color-social-link);
     fill: var(--bg-color-icons);
 }
+.social-link-employee:hover{
+    background-color: var(--bg-color-social-icons);
+}
 
     /* Customers */
 .wrapper{
@@ -85,8 +90,7 @@
     background-color: #E5E5E5;
 }
 .icon-svg{
-    background-color: var(--);
-    fill:var(--bg-svg-color-icon);
+     fill:var(--bg-svg-color-icon);
 }
 .icon-svg:hover{
     fill:var(--bg-svg-color-social-link);
