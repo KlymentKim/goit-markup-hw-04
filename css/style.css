@@ -85,9 +85,6 @@ body{
 }
 .header-div{
     display: flex;  
-  
-   
-    
 }
 .line-bottom{
     padding-bottom: 24px;
@@ -99,7 +96,6 @@ body{
 .main-menu{
     display: flex;
     /* outline: 1px solid tomato; */
-  
 }
             /* всі елементи nav горизонтально  */
 .container-menu{
@@ -159,7 +155,6 @@ body{
     /* < !-- Header Tittle --> */
 
 .title-content{
-    /* background-color: var(--primary-color-title); */
     text-align: center;
     padding-top: 192px;
     padding-bottom: 192px;
@@ -193,7 +188,7 @@ body{
     cursor: pointer;
 }
 .btn:hover{
-    background-color: #404BBF;
+    background-color: var(--color-btn-hover);
 }
        
             /* Description-title Section-1 */
