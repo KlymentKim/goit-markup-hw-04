@@ -28,7 +28,7 @@
 .list-icons:not(:nth-child(3n)){
     margin-right: 0;
 }
-.social-link{
+.social-link-list{
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -84,7 +84,7 @@
     background-color: #E5E5E5;
 }
 .icon-svg{
-    background-color: var(--bg-svg-color-social-link);
+    background-color: var(--);
     fill:var(--bg-svg-color-icon);
 }
 .icon-svg:hover{
