@@ -442,8 +442,9 @@ body{
 }
 .wrapper-list-social-media{
     display: flex;
-    margin-right: auto;
+   align-items: stretch;
     /* justify-content: flex-end; */
+
 }
 .posi-social{
     display: flex;
