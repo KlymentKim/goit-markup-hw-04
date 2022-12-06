@@ -5,6 +5,7 @@
     --bg-svg-color-custumers:#AFB1B8;
     --bg-svg-color-icon:#8E8F99;
     --prColor-title-social-media: #FFFFFF;
+    --prBg-color-footer-social-media:#31D0AA;
 
 }
 .background{
@@ -109,5 +110,5 @@
     background-color: var(--bg-svg-color-social-media);
 }
 .social-link:hover {
-    background-color: #31D0AA;
+    background-color:var(--prBg-color-footer-social-media);
 }
