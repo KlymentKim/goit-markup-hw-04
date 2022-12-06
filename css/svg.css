@@ -67,9 +67,6 @@
 }
 
     /* Customers */
-.wrapper{
-    /* display: block; */
-}
 .wrapper-panel-icons{
     display: flex;
     gap: 24px;
@@ -117,6 +114,7 @@
     height: 40px;
     padding: 8px 8px;
     border-radius: 60%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
