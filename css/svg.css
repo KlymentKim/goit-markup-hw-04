@@ -87,3 +87,12 @@
 .icon-svg:hover{
     fill:var(--bg-svg-color-social-link);
 }
+.footer-wrapper-1{
+    margin-right: 120px;
+}
+
+        /* Social media */
+.posi-social {
+    display: flex;
+    margin-right: auto;
+}
