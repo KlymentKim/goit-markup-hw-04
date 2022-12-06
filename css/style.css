@@ -416,7 +416,13 @@ body{
      margin: 0 auto;
 }
 .footer-wrapper{
+    display: flex;
+    
     justify-content: flex-start;
+    /* margin-left: 0; */
+    
+    /* width: 264px; */
+    
 }
 .main-footer-text,
 .portfolio-footer-text{
@@ -427,4 +433,13 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 16px;
+}
+.wrapper-social-media{
+    display: flex;
+
+
+}
+.wrapper-list-social-media{
+    display: flex;
+    justify-content: flex-end;
 }
