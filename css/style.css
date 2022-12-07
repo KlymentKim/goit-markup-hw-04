@@ -195,7 +195,7 @@ body{
 .wrapper-tittle{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     
     margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(-1 * var(--card-set-gap));
@@ -210,8 +210,8 @@ body{
 .wrapper-item:nth-last-child(n+1){
     margin-top: 0;
 }
-.wrapper-item:first-child{
-    margin-left: 0;
+.wrapper-item:nth-child(odd){
+     /* margin-left: 0; */
 }
 
             /* What are we doing   < !-- Section-2 -->*/
@@ -375,11 +375,15 @@ body{
     /* li */
 .portfolio-items-img > .portfolio-img{
         background: var(--primary-color-baground);
+       cursor: pointer;
        
-        border: 0.5px solid #F4F4FD;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px
-        rgba(46, 47, 66, 0.08);
+}
+.portfolio-img:hover,
+.portfolio-img:focus{
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px
+    rgba(46, 47, 66, 0.08);
 }
 .portfolio-img:not(:nth-child(3n)){
     margin-right: 24px;
