@@ -10,15 +10,14 @@
 
 }
 .hero-section{
+    max-width: 1600px;
     background-image: linear-gradient(rgba(46, 47, 66,0.7),
-    rgba(46, 47, 66,0.7)),
-     url(../images/header.jpg);
-
-     max-width: 1600px;
+    rgba(46, 47, 66,0.7)), 
+    url(../images/header.jpg);
+    background-color: #2E2F42;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2E2F42;
 }
 
 .list-icons{
@@ -74,6 +73,7 @@
     gap: 24px;
 }
 .item-icon-rectangle{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,13 +85,14 @@
     padding: 16px 32px;
    
 }
-.item-icon-rectangle{
-    background-color: #E5E5E5;
+.item-icon-rectangle:hover,
+.item-icon-rectangle:focus{
+    border: 1px solid var(--bg-svg-color-social-link);
 }
 .icon-svg{
      fill:var(--bg-svg-color-icon);
 }
-.icon-svg:hover{
+.icon-svg:hover {
     fill:var(--bg-svg-color-social-link);
 }
 .footer-wrapper-1{
