@@ -9,11 +9,13 @@
     --prBg-color-footer-social-media:#31D0AA;
 
 }
-.background{
+.hero-section{
     background-image: linear-gradient(rgba(46, 47, 66,0.7),
     rgba(46, 47, 66,0.7)),
      url(../images/header.jpg);
-    background-position: left top;
+
+     max-width: 1600px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #2E2F42;
