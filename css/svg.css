@@ -63,7 +63,8 @@
     background-color: var(--bg-svg-color-social-link);
     fill: var(--bg-color-icons);
 }
-.social-link-employee:hover{
+.social-link-employee:hover,
+.social-link-employee:focus{
     background-color: var(--bg-color-social-icons);
 }
 
