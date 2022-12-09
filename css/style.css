@@ -153,11 +153,6 @@ body{
 
                   /* MAIN SECTION  */
     /* < !-- Header Tittle --> */
-
-
-
-
-    
 .title-content{
     text-align: center;
     padding-top: 192px;
@@ -204,6 +199,24 @@ body{
     /* margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(-1 * var(--card-set-gap)); */
 }
+.wrapper-item{
+    width: 264px;
+    height: 112px ;
+}
+.wrapper-item::before{
+    display: block;
+    content: " ";
+    height: 112px;
+    outline: 1px solid tomato;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;  
+     
+}
+.wrapper-item:nth-child(1)::before{
+    background-image: url(../images/sprite.svg#icon-antenna);
+}
+
             /* What are we doing   < !-- Section-2 -->*/
 .container-list{
     display: flex;
@@ -426,8 +439,7 @@ body{
     justify-content: flex-start;
     flex-direction: row;
     /* justify-content: flex-start; */
-    /* margin-left: 0; */
-    
+    /* margin-left: 0; */ 
     /* width: 264px; */
     
 }
