@@ -154,6 +154,10 @@ body{
                   /* MAIN SECTION  */
     /* < !-- Header Tittle --> */
 
+
+
+
+    
 .title-content{
     text-align: center;
     padding-top: 192px;
@@ -186,6 +190,7 @@ body{
     padding: 16px 32px;
     border-radius: 4px;
     cursor: pointer;
+
 }
 .btn:hover{
     background-color: var(--color-btn-hover);
