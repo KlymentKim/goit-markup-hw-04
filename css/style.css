@@ -82,6 +82,9 @@ body{
             /* HEADER CONTENT  */
 .header{
     padding: 24px 24px;     
+    /* min-height: 150px;
+    /* outline: 1px solid tomato;
+    background-color: rgba(168, 12, 182, 0.2); */ */
 }
 .header-div{
     display: flex;  

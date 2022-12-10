@@ -384,5 +384,12 @@
                 </div>   
             </div>
         </footer>
+
+        <script>     
+            const { height: pageHeaderHeigth }=document
+            .querySelector(".header")
+            .getBoundingClientRect();
+            document.body.style.paddingTop=`${pageHeaderHeigth}`;
+        </script>
 </body>
 </html>
