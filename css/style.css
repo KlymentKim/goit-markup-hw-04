@@ -203,7 +203,8 @@ body{
     width: 264px;
     height: 112px ;
 }
-.wrapper-item::before{
+                /* Before/ */
+/* .wrapper-item::before{
     display: block;
     content: " ";
     height: 112px;
@@ -215,7 +216,7 @@ body{
 }
 .wrapper-item:nth-child(1)::before{
     background-image: url(../images/sprite.svg#icon-antenna);
-}
+} */
 
             /* What are we doing   < !-- Section-2 -->*/
 .container-list{
